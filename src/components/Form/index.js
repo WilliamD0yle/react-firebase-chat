@@ -12,7 +12,6 @@ const Form = props => {
     useEffect(() => {
         listenMessages();
         if (props.userName !== userName) {
-            console.log(props.userName);
             setUsername(props.userName);
         }
         // eslint-disable-next-line react-hooks/exhaustive-deps
